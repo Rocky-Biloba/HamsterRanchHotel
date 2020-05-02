@@ -123,6 +123,60 @@ HamsterRanch/fast:
 	$(MAKE) -f CMakeFiles/HamsterRanch.dir/build.make CMakeFiles/HamsterRanch.dir/build
 .PHONY : HamsterRanch/fast
 
+ElementFacturable.o: ElementFacturable.cpp.o
+
+.PHONY : ElementFacturable.o
+
+# target to build an object file
+ElementFacturable.cpp.o:
+	$(MAKE) -f CMakeFiles/HamsterRanch.dir/build.make CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.o
+.PHONY : ElementFacturable.cpp.o
+
+ElementFacturable.i: ElementFacturable.cpp.i
+
+.PHONY : ElementFacturable.i
+
+# target to preprocess a source file
+ElementFacturable.cpp.i:
+	$(MAKE) -f CMakeFiles/HamsterRanch.dir/build.make CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.i
+.PHONY : ElementFacturable.cpp.i
+
+ElementFacturable.s: ElementFacturable.cpp.s
+
+.PHONY : ElementFacturable.s
+
+# target to generate assembly for a file
+ElementFacturable.cpp.s:
+	$(MAKE) -f CMakeFiles/HamsterRanch.dir/build.make CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.s
+.PHONY : ElementFacturable.cpp.s
+
+FacturableFraisFixe.o: FacturableFraisFixe.cpp.o
+
+.PHONY : FacturableFraisFixe.o
+
+# target to build an object file
+FacturableFraisFixe.cpp.o:
+	$(MAKE) -f CMakeFiles/HamsterRanch.dir/build.make CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.o
+.PHONY : FacturableFraisFixe.cpp.o
+
+FacturableFraisFixe.i: FacturableFraisFixe.cpp.i
+
+.PHONY : FacturableFraisFixe.i
+
+# target to preprocess a source file
+FacturableFraisFixe.cpp.i:
+	$(MAKE) -f CMakeFiles/HamsterRanch.dir/build.make CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.i
+.PHONY : FacturableFraisFixe.cpp.i
+
+FacturableFraisFixe.s: FacturableFraisFixe.cpp.s
+
+.PHONY : FacturableFraisFixe.s
+
+# target to generate assembly for a file
+FacturableFraisFixe.cpp.s:
+	$(MAKE) -f CMakeFiles/HamsterRanch.dir/build.make CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.s
+.PHONY : FacturableFraisFixe.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HamsterRanch"
+	@echo "... ElementFacturable.o"
+	@echo "... ElementFacturable.i"
+	@echo "... ElementFacturable.s"
+	@echo "... FacturableFraisFixe.o"
+	@echo "... FacturableFraisFixe.i"
+	@echo "... FacturableFraisFixe.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

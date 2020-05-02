@@ -70,17 +70,47 @@ CMakeFiles/HamsterRanch.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HamsterRanch.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/main.cpp -o CMakeFiles/HamsterRanch.dir/main.cpp.s
 
+CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.o: CMakeFiles/HamsterRanch.dir/flags.make
+CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.o: ../ElementFacturable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.o -c /Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/ElementFacturable.cpp
+
+CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/ElementFacturable.cpp > CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.i
+
+CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/ElementFacturable.cpp -o CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.s
+
+CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.o: CMakeFiles/HamsterRanch.dir/flags.make
+CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.o: FacturableFraisFixe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.o -c /Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/cmake-build-debug/FacturableFraisFixe.cpp
+
+CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/cmake-build-debug/FacturableFraisFixe.cpp > CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.i
+
+CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/cmake-build-debug/FacturableFraisFixe.cpp -o CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.s
+
 # Object files for target HamsterRanch
 HamsterRanch_OBJECTS = \
-"CMakeFiles/HamsterRanch.dir/main.cpp.o"
+"CMakeFiles/HamsterRanch.dir/main.cpp.o" \
+"CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.o" \
+"CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.o"
 
 # External object files for target HamsterRanch
 HamsterRanch_EXTERNAL_OBJECTS =
 
 HamsterRanch: CMakeFiles/HamsterRanch.dir/main.cpp.o
+HamsterRanch: CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.o
+HamsterRanch: CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.o
 HamsterRanch: CMakeFiles/HamsterRanch.dir/build.make
 HamsterRanch: CMakeFiles/HamsterRanch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HamsterRanch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable HamsterRanch"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HamsterRanch.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

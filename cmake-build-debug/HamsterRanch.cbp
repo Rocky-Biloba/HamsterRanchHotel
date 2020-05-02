@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/ElementFacturable.cpp">
+			<Option target="HamsterRanch"/>
+		</Unit>
+		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/ElementFacturable.h">
+			<Option target="HamsterRanch"/>
+		</Unit>
+		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/cmake-build-debug/FacturableFraisFixe.cpp">
+			<Option target="HamsterRanch"/>
+		</Unit>
+		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/cmake-build-debug/FacturableFraisFixe.h">
+			<Option target="HamsterRanch"/>
+		</Unit>
 		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/main.cpp">
 			<Option target="HamsterRanch"/>
 		</Unit>
