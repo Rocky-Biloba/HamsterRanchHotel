@@ -14,7 +14,6 @@ public:
     static int entreeGym;
     static int choix;
 
-
     // constructeur par défaut
     FacturableFraisFixe();
     //destructeur
@@ -32,11 +31,11 @@ public:
             std::cout << "\t\t\t Accès au gym non-ajouté!!";
         }
     }
-    /*
+
     //methode calcTax2();
     double calcTax2(int a, int b){
+        return 0;
     };
-*/
 };
 
 

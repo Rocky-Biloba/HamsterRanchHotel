@@ -17,6 +17,7 @@ using std::endl;
 int main() {
 // création d'un conteneur pour les elements d'un facture
 std::map<std::string, int> facture;
+FacturableFraisFixe* services = new FacturableFraisFixe();
 //FacturableFraisFixe FraisFixe;
 
     int choix = 0;
@@ -76,12 +77,13 @@ std::map<std::string, int> facture;
                 cin >> userInput;
                 if ((userInput == "o") || (userInput == "O")){
                     //try?
-                    int entreeGym = FacturableFraisFixe.ajoutGym(1);
+                    int entreeGym = 0;
+                    entreeGym = services.ajoutGym(1);
                     std::string msgEntreeGym = "Gym";
                     std::pair<std::string, int> gym_paire(msgEntreeGym, entreeGym);
                     facture.insert(gym_paire);
                 } else if ((userInput == "N")||(userInput == "n")){
-                    FacturableFraisFixe.ajoutGym(0);
+                    services.ajoutGym(0);
                 } else{
                     cout << YELLOW << "\t\t Erreur : Saisir un 'o' pour 'oui' ou un 'n' pour 'non'..." <<endl;
                 }
