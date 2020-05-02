@@ -177,6 +177,33 @@ FacturableFraisFixe.cpp.s:
 	$(MAKE) -f CMakeFiles/HamsterRanch.dir/build.make CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.s
 .PHONY : FacturableFraisFixe.cpp.s
 
+FacturableParUnite.o: FacturableParUnite.cpp.o
+
+.PHONY : FacturableParUnite.o
+
+# target to build an object file
+FacturableParUnite.cpp.o:
+	$(MAKE) -f CMakeFiles/HamsterRanch.dir/build.make CMakeFiles/HamsterRanch.dir/FacturableParUnite.cpp.o
+.PHONY : FacturableParUnite.cpp.o
+
+FacturableParUnite.i: FacturableParUnite.cpp.i
+
+.PHONY : FacturableParUnite.i
+
+# target to preprocess a source file
+FacturableParUnite.cpp.i:
+	$(MAKE) -f CMakeFiles/HamsterRanch.dir/build.make CMakeFiles/HamsterRanch.dir/FacturableParUnite.cpp.i
+.PHONY : FacturableParUnite.cpp.i
+
+FacturableParUnite.s: FacturableParUnite.cpp.s
+
+.PHONY : FacturableParUnite.s
+
+# target to generate assembly for a file
+FacturableParUnite.cpp.s:
+	$(MAKE) -f CMakeFiles/HamsterRanch.dir/build.make CMakeFiles/HamsterRanch.dir/FacturableParUnite.cpp.s
+.PHONY : FacturableParUnite.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... FacturableFraisFixe.o"
 	@echo "... FacturableFraisFixe.i"
 	@echo "... FacturableFraisFixe.s"
+	@echo "... FacturableParUnite.o"
+	@echo "... FacturableParUnite.i"
+	@echo "... FacturableParUnite.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

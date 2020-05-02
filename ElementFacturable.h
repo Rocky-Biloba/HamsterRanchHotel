@@ -12,9 +12,9 @@
 class ElementFacturable {
 public:
     // constructeur par défaut
-    ElementFacturable();
+    ElementFacturable(){};
     //destructeur
-    virtual ~ElementFacturable();
+    virtual ~ElementFacturable(){};
 
     //methode taxe vente de base @ 8%
     double calcTax1(int nuitees, int repas, int spa, int gym  ){

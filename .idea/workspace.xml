@@ -12,14 +12,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2bf72d5-f894-45b2-adbb-66b61271f689" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FacturableParUnite.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FacturableParUnite.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ElementFacturable.h" beforeDir="false" afterPath="$PROJECT_DIR$/ElementFacturable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FacturableFraisFixe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FacturableFraisFixe.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FacturableFraisFixe.h" beforeDir="false" afterPath="$PROJECT_DIR$/FacturableFraisFixe.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HamsterRanch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HamsterRanch.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HamsterRanch.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1588341702493</updated>
       <workItem from="1588341703716" duration="1779000" />
-      <workItem from="1588368018258" duration="16623000" />
+      <workItem from="1588368018258" duration="17527000" />
+      <workItem from="1588453463447" duration="4814000" />
     </task>
     <servers />
   </component>
@@ -79,22 +92,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1274" height="135" key="GridCell.Tab.0.bottom" timestamp="1588451659938">
+    <state width="1274" height="166" key="GridCell.Tab.0.bottom" timestamp="1588458393340">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1274" height="135" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1588451659938" />
-    <state width="1274" height="135" key="GridCell.Tab.0.center" timestamp="1588451659937">
+    <state width="1274" height="166" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1588458393340" />
+    <state width="1274" height="166" key="GridCell.Tab.0.center" timestamp="1588458393339">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1274" height="135" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1588451659937" />
-    <state width="1274" height="135" key="GridCell.Tab.0.left" timestamp="1588451659937">
+    <state width="1274" height="166" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1588458393339" />
+    <state width="1274" height="166" key="GridCell.Tab.0.left" timestamp="1588458393338">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1274" height="135" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1588451659937" />
-    <state width="1274" height="135" key="GridCell.Tab.0.right" timestamp="1588451659937">
+    <state width="1274" height="166" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1588458393338" />
+    <state width="1274" height="166" key="GridCell.Tab.0.right" timestamp="1588458393339">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1274" height="135" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1588451659937" />
+    <state width="1274" height="166" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1588458393339" />
+    <state x="452" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1588453466129">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="452" y="276" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1588453466129" />
     <state x="710" y="203" key="search.everywhere.popup" timestamp="1588368273513">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

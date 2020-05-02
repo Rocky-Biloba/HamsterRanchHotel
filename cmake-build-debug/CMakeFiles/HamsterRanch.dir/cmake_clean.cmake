@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HamsterRanch.dir/ElementFacturable.cpp.o"
   "CMakeFiles/HamsterRanch.dir/FacturableFraisFixe.cpp.o"
+  "CMakeFiles/HamsterRanch.dir/FacturableParUnite.cpp.o"
   "CMakeFiles/HamsterRanch.dir/main.cpp.o"
   "HamsterRanch"
   "HamsterRanch.pdb"

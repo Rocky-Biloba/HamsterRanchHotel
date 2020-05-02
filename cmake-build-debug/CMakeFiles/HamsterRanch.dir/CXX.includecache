@@ -12,11 +12,27 @@ iostream
 string
 -
 
-/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableFraisFixe.cpp
-FacturableFraisFixe.h
-/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableFraisFixe.h
-
 /Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableFraisFixe.h
 ElementFacturable.h
 /Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/ElementFacturable.h
+
+/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableParUnite.h
+ElementFacturable.h
+/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/ElementFacturable.h
+
+/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/main.cpp
+iostream
+-
+map
+-
+cstdlib
+-
+iomanip
+-
+ElementFacturable.h
+/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/ElementFacturable.h
+FacturableFraisFixe.h
+/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableFraisFixe.h
+FacturableParUnite.h
+/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableParUnite.h
 

@@ -92,6 +92,12 @@
 		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableFraisFixe.h">
 			<Option target="HamsterRanch"/>
 		</Unit>
+		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableParUnite.cpp">
+			<Option target="HamsterRanch"/>
+		</Unit>
+		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableParUnite.h">
+			<Option target="HamsterRanch"/>
+		</Unit>
 		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/main.cpp">
 			<Option target="HamsterRanch"/>
 		</Unit>
