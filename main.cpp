@@ -15,8 +15,8 @@ using std::endl;
 #define BOLDWHITE   "\033[1m\033[37m"      /* Bold White */
 
 int main() {
-
-
+// Conteneur pour les elements d'un facture
+std::map<std::string, int> facture;
 
     int choix = 0;
     do {
@@ -47,7 +47,8 @@ int main() {
         cout << "\t        2) Ajouter les repas :" << endl;
         cout << "\t        3) Ajouter accès au gym" << endl;
         cout << "\t        4) Ajouter accès au spa" << endl;
-        cout << "\t        5) Quitter" << endl;
+        cout << "\t        5) Afficher la facture" << endl;
+        cout << "\t        6) Quitter" << endl;
         cin >> choix;
 
         switch (choix) {
@@ -88,8 +89,14 @@ int main() {
             int spa = 1;
         }
         break;
+            case 5: {
+                cout << BOLDMAGENTA << "\t\t Accès au spa ajouté!!          " << endl;
+                // add method print 'un_facture' map
+                int spa = 1;
+            }
+                break;
     }
-}while (choix != 5);
+}while (choix != 6);
 std::cout << "Bye bye !" << std::endl;
         }
 
