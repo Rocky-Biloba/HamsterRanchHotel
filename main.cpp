@@ -15,8 +15,9 @@ using std::endl;
 #define BOLDWHITE   "\033[1m\033[37m"      /* Bold White */
 
 int main() {
-// Conteneur pour les elements d'un facture
+// création d'un conteneur pour les elements d'un facture
 std::map<std::string, int> facture;
+//FacturableFraisFixe FraisFixe;
 
     int choix = 0;
     do {
@@ -74,7 +75,11 @@ std::map<std::string, int> facture;
                 cout << BOLDMAGENTA << "\t\t Ajouter un accès au gym, oui ou non?\n\t\t\t O/N ?" << endl;
                 cin >> userInput;
                 if ((userInput == "o") || (userInput == "O")){
-                    FacturableFraisFixe.ajoutGym(1);
+                    //try?
+                    int entreeGym = FacturableFraisFixe.ajoutGym(1);
+                    std::string msgEntreeGym = "Gym";
+                    std::pair<std::string, int> gym_paire(msgEntreeGym, entreeGym);
+                    facture.insert(gym_paire);
                 } else if ((userInput == "N")||(userInput == "n")){
                     FacturableFraisFixe.ajoutGym(0);
                 } else{

@@ -86,10 +86,10 @@
 		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/ElementFacturable.h">
 			<Option target="HamsterRanch"/>
 		</Unit>
-		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/cmake-build-debug/FacturableFraisFixe.cpp">
+		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableFraisFixe.cpp">
 			<Option target="HamsterRanch"/>
 		</Unit>
-		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/cmake-build-debug/FacturableFraisFixe.h">
+		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableFraisFixe.h">
 			<Option target="HamsterRanch"/>
 		</Unit>
 		<Unit filename="/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/main.cpp">
