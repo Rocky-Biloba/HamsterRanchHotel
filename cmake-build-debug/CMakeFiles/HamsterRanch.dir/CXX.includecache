@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/main.cpp
+iostream
+-
+map
+-
+
