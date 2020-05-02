@@ -13,8 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b2bf72d5-f894-45b2-adbb-66b61271f689" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FacturableFraisFixe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FacturableFraisFixe.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FacturableFraisFixe.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FacturableFraisFixe.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FacturableFraisFixe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FacturableFraisFixe.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FacturableFraisFixe.h" beforeDir="false" afterPath="$PROJECT_DIR$/FacturableFraisFixe.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="HamsterRanch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HamsterRanch" TARGET_NAME="HamsterRanch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HamsterRanch" RUN_TARGET_NAME="HamsterRanch">
       <method v="2">
@@ -60,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588341702493</updated>
       <workItem from="1588341703716" duration="1779000" />
-      <workItem from="1588368018258" duration="8050000" />
+      <workItem from="1588368018258" duration="11662000" />
     </task>
     <servers />
   </component>

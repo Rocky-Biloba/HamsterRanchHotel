@@ -1,5 +1,8 @@
 #include <iostream>
 #include <map>
+#include <cstdlib>
+#include <iomanip>
+#include "FacturableFraisFixe.h"
 
 using std::cin;
 using std::cout;
@@ -12,6 +15,9 @@ using std::endl;
 #define BOLDWHITE   "\033[1m\033[37m"      /* Bold White */
 
 int main() {
+
+
+
     int choix = 0;
     do {
         // header Bienvenue
@@ -63,9 +69,17 @@ int main() {
             }
                 break;
             case 3: {
-                cout << BOLDMAGENTA << "\t\t Accès au gym ajouté!!          " << endl;
+                std::string userInput = "";
+                cout << BOLDMAGENTA << "\t\t Ajouter un accès au gym, oui ou non?\n\t\t\t O/N ?" << endl;
+                cin >> userInput;
+                if ((userInput == "o") || (userInput == "O")){
+                    FacturableFraisFixe.ajoutGym(1);
+                } else if ((userInput == "N")||(userInput == "n")){
+                    FacturableFraisFixe.ajoutGym(0);
+                } else{
+                    cout << YELLOW << "\t\t Erreur : Saisir un 'o' pour 'oui' ou un 'n' pour 'non'..." <<endl;
+                }
                 // add verification que les nuitees existe
-                int gym = 1;
             }
                 break;
         case 4: {
