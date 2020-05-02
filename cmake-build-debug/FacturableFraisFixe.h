@@ -22,7 +22,9 @@ public:
     //methode ajoutEntreeGym();
 
     //methode calcTax2();
-    double calcTax2() = 0;
+    double calcTax2(){
+
+    };
 
 };
 

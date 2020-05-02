@@ -3,3 +3,6 @@
 //
 
 #include "FacturableFraisFixe.h"
+ FacturableFraisFixe::FacturableFraisFixe(){
+    std::cout << "Service ajouté!" << std::endl;
+}
