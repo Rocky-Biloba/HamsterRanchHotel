@@ -23,7 +23,9 @@ public:
     }// end calcTax1
 
     //methode virtuelle taxe hébergement @ 5% OU taxe frais fixe @ 7%
-    virtual double calcTax2() = 0;
+    virtual double calcTax2(){
+        return 0;
+    }
 };
 
 

@@ -20,15 +20,3 @@ FacturableFraisFixe.h
 ElementFacturable.h
 /Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/ElementFacturable.h
 
-/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/main.cpp
-iostream
--
-map
--
-cstdlib
--
-iomanip
--
-FacturableFraisFixe.h
-/Users/rocky/Documents/POOetWebTech_CollegeRosemont/Cpp_ConceptsStructurationDonneesInformatique/cpp_repos/TP2/TP2_rlo/HamsterRanch/FacturableFraisFixe.h
-
