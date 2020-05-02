@@ -19,7 +19,8 @@ using std::endl;
 int main() {
 // création d'un conteneur pour les elements d'un facture
 std::map<std::string, int> facture;
-//FacturableFraisFixe* services = new FacturableFraisFixe();
+
+
 FacturableFraisFixe FraisFixe;
 FacturableParUnite ParUnite;
 
@@ -98,20 +99,22 @@ FacturableParUnite ParUnite;
             }
                 break;
             case 3: {
+                int entreeGym = 0;
+                int choixGym=0;
                 std::string userInput = "";
                 cout << BOLDMAGENTA << "\t\t Ajouter un accès au GYM, oui ou non?\n\t\t\t O/N ?" << endl;
                 cin >> userInput;
-                if ((userInput == "o") || (userInput == "O")){
-                    //try?
-                    int entreeGym = 0;
-                    entreeGym = FraisFixe.ajoutGym(1);
-                    std::string msgEntreeGym = "Gym";
-                    std::pair<std::string, int> gym_paire(msgEntreeGym, entreeGym);
-                    facture.insert(gym_paire);
-                } else if ((userInput == "N")||(userInput == "n")){
-                    FraisFixe.ajoutGym(0);
-                } else{
-                    cout << YELLOW << "\t\t Erreur : Saisir un 'o' pour 'oui' ou un 'n' pour 'non'..." <<endl;
+                try {
+                    // valider Input
+                    choixGym = FraisFixe.validInput(userInput);
+                    if (choixGym == 1) {
+                        entreeGym = 50;
+                    } else {
+                        entreeGym = 0;
+                    }
+                }
+                catch(const char* msg) {
+                    std::cout << YELLOW << msg << endl;
                 }
                 // add verification que les nuitees existe
             }

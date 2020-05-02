@@ -42,6 +42,17 @@ public:
     double calcTax2(int a, int b){
         return 0;
     };
+
+    //validate input
+    int validInput(std::string userInput){
+        if ((userInput == "o") || (userInput == "O")){
+            return 1;
+        } else if ((userInput == "N")||(userInput == "n")){
+           return 0;
+        } else{
+            throw "\t\t Erreur : Saisir un 'o' pour 'oui' ou un 'n' pour 'non'...";
+        }
+    }
 };
 
 
