@@ -13,11 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b2bf72d5-f894-45b2-adbb-66b61271f689" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElementFacturable.h" beforeDir="false" afterPath="$PROJECT_DIR$/ElementFacturable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FacturableFraisFixe.h" beforeDir="false" afterPath="$PROJECT_DIR$/FacturableFraisFixe.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FacturableParUnite.h" beforeDir="false" afterPath="$PROJECT_DIR$/FacturableParUnite.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HamsterRanch.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,7 @@
       <updated>1588341702493</updated>
       <workItem from="1588341703716" duration="1779000" />
       <workItem from="1588368018258" duration="17527000" />
-      <workItem from="1588453463447" duration="27791000" />
+      <workItem from="1588453463447" duration="28862000" />
     </task>
     <servers />
   </component>
