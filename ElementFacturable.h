@@ -17,15 +17,20 @@ public:
     virtual ~ElementFacturable(){};
 
     //methode taxe vente de base @ 8%
-    double calcTax1(int nuitees, int repas, int spa, int gym  ){
-        double addition = 1.08 * (nuitees + repas + spa + gym);
-        return addition;
-    }// end calcTax1
+    double getTaxeBase(){
+            return 0.08;
+    }
 
-    //methode virtuelle taxe hébergement @ 5% OU taxe frais fixe @ 7%
-    virtual double calcTax2(){
+    //methode taxe additionnelle @ 7%
+    double getTaxeAdd(){
+        return 0.07;
+    }
+    //methode virtuelle taxe hébergement @ 5% sur nuits + repas (ParUnité)
+    virtual double getTaxeHebrg(){
         return 0;
     }
+
+
 };
 
 

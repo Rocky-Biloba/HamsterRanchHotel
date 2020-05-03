@@ -16,34 +16,8 @@ public:
     //destructeur
     ~FacturableFraisFixe(){};
 
-    //methode ajoutEntreeSpa();
-    int ajoutSpa(int choix) {
-        if (choix == 1) {
-            std::cout << "\t\t\tAccès au spa ajouté!!\n";
-            return 50;
-        } else {
-            std::cout << "\t\t\t Accès au spa non-ajouté!!\n";
-            return 0;
-        }
-    }
 
-    //methode ajoutEntreeGym();
-    int ajoutGym(int choix){
-        if (choix == 1) {
-            std::cout << "\t\t\tAccès au gym ajouté!!\n";
-            return  50;
-        } else {
-            std::cout << "\t\t\t Accès au gym non-ajouté!!\n";
-            return 0;
-        }
-    }// end ajoutEntreeGym
-
-    //methode calcTax2();
-    double calcTax2(int a, int b){
-        return 0;
-    };
-
-    //validate input
+    //valider input string et retour valeur int
     int validInput(std::string userInput){
         if ((userInput == "o") || (userInput == "O")){
             return 1;

@@ -21,30 +21,35 @@ public:
     //methode ajoutNuit();
     int ajoutNuit(int nbr) {
         int sousTotal;
-        if(sousTotal == 0){
                 std::cout <<"\t\t\t" << nbr << " nuitées ajoutées!!\n";
                 sousTotal = nbr * 100;
                 return sousTotal;
-
-        }else{
-            std::cout <<"\t\t\t Il y as déjà les nuitées sur cette facture!!\n";
-        };
     }// end ajoutNuitee
 
     //methode ajoutRepas();
     int ajoutRepas(int nbr) {
+    //try...catch erreur nbrRepas <= nbrNuits
         int sousTotal;
-            std::cout <<"\t\t\t Erreur: Il n'y as pas de nuitées sur cette facture.\n";
+            std::cout <<"\t\t\t" << nbr << " repas ajoutées!!\n";
             sousTotal = nbr * 20;
             return sousTotal;
-            //std::cout <<"\t\t\t Erreur: Il n'y as pas de nuitées sur cette facture.\n";
-
     }// end ajoutRepas
 
-    //methode calcTax2();
-    double calcTax2(int a, int b){
-        return 0;
-    };//end calcTax2
+    //methode getTaxeAdd()
+    double getTaxeHebrg(){
+        return 0.05;
+    }
+
+    // validate input : erreur valeur non-numérique
+    int validInput(std::string userInput){
+        int resultat =0;
+        try {
+            resultat = std::stoi(userInput);
+        } catch (...){
+            throw "Erreur: Entrer un valeur numérique.\n";
+        }
+        return resultat;
+    }
 };
 
 
