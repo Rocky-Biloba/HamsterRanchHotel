@@ -11,7 +11,7 @@ Ensuite, pendant ma recherche sur ces contenants, j'ai vu.e que vector était so
 
 3) vector	à ma liste. 
 
-Je n'arrivais pas à bien saisir donc je t'es demandé pour de l'aide. J'été dirigé.e vers le contenant MAP  parce que je voulais garder mes valeurs de facture en ordre. 
+Je craignais à ne pas bien saisir comment choisir un contenant de manière efficace, donc je t'es demandé pour de l'aide. J'été dirigé.e vers le contenant MAP  parce que je voulais garder mes valeurs de facture en ordre. 
 Après avoir codé 'HamsterRanch', je comprends que j'aurais pu utilisé std::vector ou std::list, pour les afficher en ordre d'insertion (FIFO).
 
 
@@ -23,6 +23,6 @@ map <std::string, int>
 ---------RÉTROACTION--------------
 
 -ça m'a pris 12 heures.
-C’est beaucoup trop, avec un TP3 qui s'en vient, dans un pandémique.
+C’est beaucoup trop, avec un TP3 qui s'en vient en 5 jours, et 2 TPs finales en BDII + 1 TP en C# due en 7 jours, durant un pandémique.
 
--Réfléchir et élaborer sur les pratiques de 'souplesse' envers les étudiant.Es en temps de crise globale.
+-Réfléchir et élaborer sur les pratiques de 'souplesse' envers les étudiant.Es, especiallement en temps de crise globale.
